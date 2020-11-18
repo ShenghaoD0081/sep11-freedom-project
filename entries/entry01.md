@@ -7,6 +7,7 @@ Babylon.js has a playground where you can test things out as well as many commun
 
 Links:
 [Babylon.js](https://www.babylonjs.com/)
+
 [A-Frame](https://aframe.io/)
 
 [Next](entry02.md)
