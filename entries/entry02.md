@@ -10,7 +10,8 @@ Each day has a different dungeon or boss I have to fight on that specific day an
 With this I thought I would make a web based tool to help me keep track of all the grinding I need to do on a daily basis, but I didn't know which tool to use. 
 After looking through many tools I decided that [Firebase](https://firebase.google.com/) would be perfect. At first I didn't know what Firebase could offer but this [video](https://www.youtube.com/watch?v=9kRgVxULbag) showed me what Firebase really offered.
 Being able to control the back end and allow users to log on with ease is ideal for what I want to create. 
-I want users to be able to login and keep track of what they have to do on a specific day and firebase allows me to do so.
+I want users to be able to login and keep track of what they have to do on a specific day and firebase allows me to do so. 
+Using code like .pop, .push, and splice will also allow users to delete tasks they've done already easily or add some they need to do.
 I began to research more on Firebase and this [video](https://www.youtube.com/watch?v=-UOkri_WNWQ) helped me set up Firebase.
 At this point I know what I want to make but I don't know how it should look like so I want to begin on my user interface first then slowly move on to a login screen since Firebase allows users to easily sign in using google.
 
