@@ -13,6 +13,7 @@ Being able to control the back end and allow users to log on with ease is ideal 
 I want users to be able to login and keep track of what they have to do on a specific day and firebase allows me to do so.
 I began to research more on Firebase and this [video](https://www.youtube.com/watch?v=-UOkri_WNWQ) helped me set up Firebase.
 At this point I know what I want to make but I don't know how it should look like so I want to begin on my user interface first then slowly move on to a login screen since Firebase allows users to easily sign in using google.
+
 [Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)
