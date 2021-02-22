@@ -1,5 +1,5 @@
 # Entry 3
-##### X/X/XX
+##### 2/21/2021
 
 At this point I have completely setting up Firebase and started testing it in repl. Feel free to take a look at my [repl](https://repl.it/@ShenghaoDong/Testing-Firebase).
 I do plan on moving my work to github in the near future when I'm done experimenting with more things. I will include the link to the github in future blog posts. 
@@ -40,6 +40,32 @@ something like this:
   firebase.analytics();
 </script>
 ```
+Without this code Firebase will not be able to function. 
+
+The skills I learned were **debugging** and **finding the solution**, when first starting firebase I watched a [video](https://www.youtube.com/watch?v=-UOkri_WNWQ) on how to take in data
+from the user. This was my first experience with the tool and I wasn't very sure about how to start but the video's instructions were very clear. Upon completion I was awaited with a error
+so I began to look for a solution. After looking at the comments I realized I needed another line of code for it to function and that code being:
+
+```JS Snippet
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-database.js"></script>
+```
+Without this it was not possible for me to access the database.
+The video itself told me how to allow the user to input information into the database and with the help of some HTML it ended up working as intended.
+```JS Snippet
+function writeData(){
+    firebase.database().ref("User").set({
+    name: document.getElementById("nameField").value,
+    age: document.getElementById("ageField").value
+  });
+}
+```
+This line of code calls the Firebase database and inserts the data of the user into the database. This code was accompanied by this HTML:
+```HTML Snippet
+<input type = "text" placeholder = "Name" id = "nameField">
+<input type = "text" placeholder = "Age" id = "ageField">
+<button onclick ="writeData()">Submit</button>
+```
+The HTML allowed users to input information in a box. In this case the website was asking for their name and age.
 
 [Previous](entry02.md) | [Next](entry04.md)
 
