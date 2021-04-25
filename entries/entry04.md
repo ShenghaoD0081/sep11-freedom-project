@@ -1,9 +1,6 @@
 # Entry 4
-##### X/X/XX
+##### 4/25/2021
 
-Text
-
-[Previous](entry03.md) | [Next](entry05.md)
 After beginning to work on my Project again, I realized that my Realtime Firebase Access had expired. To fix that I had to change the rules so that I could use the 
 Realtime Database again. I'm currently still working on repl.it but I do plan on changing to github by the next time I make another entry. At this point in time
 I have a goal in mind and I'm working towards it.
@@ -45,4 +42,7 @@ I used a onclick function on a button in order to trigger the code. With the log
 
 The skills I used are **debugging** and **Learning from My Mistakes**. Last time I didn't put in the Realtime Database code so the database didn't work but this time
 II learned from my mistakes and added the Authenization code. I also learned to debug when my code was printing out a error I had fixed it by adding my domain.
+
+[Previous](entry03.md) | [Next](entry05.md)
+
 [Home](../README.md)
