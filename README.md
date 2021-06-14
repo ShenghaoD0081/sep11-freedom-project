@@ -12,9 +12,13 @@ This blog will walk through my process of independently studying on Firebase in 
 ## Links
 
 Product
+
 [FP Github Page](https://github.com/ShenghaoD0081/sep11fp-firebase)
+
 Presentation
+
 [Slides](https://docs.google.com/presentation/d/1punit6M4s6Mu6JHfSOXX-ycFESo-fzbTVe7eSFieNeM/edit?usp=sharing)
+
 ## Implications
 None yet
 
